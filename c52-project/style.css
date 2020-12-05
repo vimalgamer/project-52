@@ -1,0 +1,47 @@
+.header{
+    background-color: rgb(0, 58, 250);
+    display: flex;
+    justify-content: space-between;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+p, h3 {
+    text-align: center;
+    color: rgb(17, 0, 252);
+    font-size: larger;
+}
+.item {
+    position: relative;
+}
+.img {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    opacity: 0;
+}
+.item h3{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.menu{
+    margin-right: 30px;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: green;
+}
+.item:hover h3{
+    opacity: 1;
+}
+.item:hover .img{
+    opacity:1;
+}
+.item:hover h3{
+    opacity: 0; 
+}
